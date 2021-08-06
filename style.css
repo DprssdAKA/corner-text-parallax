@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+/* NOTE: You can always change anything you want! */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap'); /* This is just a Google Font API, you can replace/remove it! */
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* You can always change the font whatever you like! */
 }
 section
 {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #222;
+    background-color: #222; /* Change it to any color you'd like! */
     overflow: hidden;
 }
 section .textBox
@@ -21,7 +22,7 @@ section .textBox
     left: 0;
     width: 100%;
     height: 100%;
-    background: #333;
+    background: #333; /* Change it to any color you'd like! */
     clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
 }
 .skew1 h2,
@@ -30,9 +31,9 @@ section .textBox
     position: absolute;
     width: 100%;
     text-align: center;
-    font-size: 12em;
+    font-size: 12em; /* Change it to any size you'd like! */
     line-height: 1em;
-    color: #0488f5;
+    color: #0488f5; /* Change it to any color you'd like! */
     cursor: pointer;
 }
 .skew1 h2
